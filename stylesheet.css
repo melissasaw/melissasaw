@@ -1,0 +1,433 @@
+
+body {background-color: white;}
+
+/*Headings*/
+h1 {
+	color: #353535;
+	font-family:  'Caveat', cursive; 
+	font-size: 50px;
+	text-align: center;
+	}
+
+h3, h4, h5 {
+	color: rgb(134, 45, 45);
+	font-family: 'Caveat', cursive;
+	}
+
+h5  {
+	font-size: 25px;
+	}
+
+
+#logo-nav 
+	{
+		background-color: #F4EED8;/*This is the beige from pug logo and the darkbrown for face is (#353535)*/
+		position:fixed;
+		left:0;
+		top:0;
+		width: 100%;/*I need this to pull across the whole page*/
+		z-index: 2;
+	
+	}
+header img 
+	{
+		height:70px;
+		margin:20px;
+		margin-left:40px;
+		border:none;
+	}
+
+header nav 
+	{
+		float:right;
+		margin-top: 25px;
+		margin-right:100px;}
+
+header nav ul li 
+	{
+	display:inline;
+	padding:20px;
+	font-size: 25px
+	color;
+	}
+
+header nav ul li a 
+	{
+		color:#353535;
+		text-decoration: none;
+	}
+
+.introduction
+
+	{	
+		color: #353535;
+		font-family:  'Caveat', cursive;
+		position: absolute;
+		left:0;
+		width:100%;
+		max-height:300px;
+		height: 100%;
+		background-color: white;
+		z-index: 0;
+	}
+
+.introduction h1
+	{		
+		color: #353535;
+		font-family:  'Caveat', cursive;
+		font-size: 100px;
+		padding-top: 40px;
+	}
+.introduction h3
+	{
+		text-align: center;
+		size:70px;
+	}
+.pugcartoon
+	{ 
+		width:100%;
+		max-height: 700px;
+		height: 100%;
+		position:relative;
+	}
+
+.pugcartoon img
+	{
+
+	position:absolute;
+	right:150px;
+	top:50px;
+	border:none;
+	height: 225px;
+	width: 300px ;
+	}
+
+/*Sections*/
+
+#gapforheader
+	{height:150px;}
+
+
+#gapforfirstintroduction
+	{height:700px;}
+
+
+#section-one
+	{
+	
+	background-color: #F4EED8;
+	color: #353535;
+	font-family:  'Caveat', cursive;/*the two fonts behind are fallback fonts*/
+	font-size: 35px;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+
+
+	}
+
+#section-two
+	{
+		background-color: white;
+		margin: 20px;
+		margin-top: 50px;
+		padding:20px;
+
+	}
+
+#section-two h2
+	{
+		font-family: "Caveat", cursive;
+		text-decoration: none;
+	}
+
+.section-three
+	{
+		display:inline block;
+	}
+
+.section-three .about-pugs
+
+	{
+		background-color:rgb(242, 242, 242,0.5);
+		margin: 20px;
+		padding: 20px;
+		border-radius: 15px;
+		display:inline-block;
+	}
+
+.section-three .pug-illustration
+	{
+		background-color:rgb(242, 242, 242,0.5);
+		margin: 20px;
+		padding:20px;
+		border-radius: 15px;
+		display:inline-block;
+	}
+.section-three .pug-illustration #pug-physical-characteristics
+	{
+		padding-top: 20px;
+		padding-bottom:45px;
+
+	}
+
+.section-four
+	{
+	background-color: white;
+	margin-top: 50px;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+
+	}
+
+.section-four img
+	{
+		margin-top:20px;
+		margin-bottom:20px;
+		border-radius: 0;
+	}
+
+.section-five
+	{
+	background-color: rgba(255,182,193,0.3);
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+	position: relative;
+	}
+
+.section-five .image-1
+	{
+	height:200px;
+	border: 0.5px dashed red;
+	position:absolute;
+	left:700px;
+	top:40px;
+
+	}
+
+.section-five .image-2
+	{
+	height:200px;
+	border: 0.5px dashed red;
+	position:absolute;
+	left:730px;
+	top:550px;
+
+	}
+
+
+#carouselFadeExampleIndicators
+	{
+	
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+	max-width:700px;
+	width:100%;
+	}
+
+
+.container
+	{
+	border-radius: 15px;
+	padding:30px;
+	}
+.container .row
+	{
+		margin-top: 40px;
+		background-image: url("./bananas/bananas.png") ; 
+		border:none;
+		padding:30px;
+	}
+.container .contact-us
+	{
+		margin-top:40px;
+		border:1px dotted lightgrey;
+		padding:30px;
+		background-color: white;
+
+	}
+
+/*divs for header2*/
+.text-one
+	{	
+	color: black;
+	font-family: 'Caveat', cursive;
+	font-size: 35px;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 10px;
+    width: 20%;
+    border: 3px solid #73AD21;
+    border-radius: 20px 2px;
+    padding: 10px;
+    display: inline-block;
+	} 
+
+.text-two
+	{	
+	color: black;
+	font-family: 'Caveat', cursive;
+	font-size: 35px;
+	text-align:center;
+	margin:20px;
+    width: 20%;
+    border: 3px dashed #73AD21;
+    border-radius: 5px 80px;
+    padding: 10px;
+    display: inline-block;
+	}
+
+.text-three
+	{	
+	color: black;
+	font-family: 'Caveat', cursive;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: line-through;
+	margin:20px;
+    width: 20%;
+    border: 3px dotted red;
+    border-radius: 80px 2px 2px 2px;
+    padding: 10px;
+    display: inline-block;
+	}
+
+.text-four
+	{	
+	color: black;
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
+	text-align:center;
+	margin:20px;
+	width: 20%;
+    border: 3px double #73AD21;
+    border-radius: 2px 80px 80px 80px;
+    padding: 10px;
+    display:inline-block;
+	}
+
+header div p /*Specifity - selectors with more specifity takes precedent over generic ones, 
+this line of code changed everything above in all the .hellows into blue*/
+	{
+	color:darkblue;
+	}
+
+p 	{
+	color: black;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	}
+
+ul
+	{
+	color: black;
+	font-family:'Caveat', 'Arial', cursive;
+	font-size: 20px;
+	}
+
+ol
+	{
+	color:darkgrey;
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+}
+
+
+table,th,td
+	{
+	font-family:'Caveat', cursive; 
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 30px 10px;
+	padding: 20px;
+	}
+
+
+img 
+	{
+	border: 1px solid black;
+	border-radius: 10px;
+	}
+
+
+/*Using classes and span*/
+.red 
+	{
+	color: red;
+	}
+.orange 
+	{
+	color: darkorange;
+	}
+.yellow 
+	{
+	color: yellow;
+	}
+.green 
+	{
+	color: green;
+	}
+
+
+.back-to-top
+	{
+		border:2px solid black;
+		width:50px;
+		height: 50px;
+		position:fixed;
+		right:50px;
+		top:600px;
+		background-color: rgba(191,191,191,0.4)
+	}
+.back-to-top a
+	{	
+		margin:0;
+		position:absolute;
+		top:12px;
+		right:20px;
+		font-size: 20px;
+	}
+
+/*This is for the tinted box
+.container-box
+	{
+	position:relative;
+	margin: 20px;
+	width:300px;
+	height:200px;
+	
+	}
+
+.container-box img
+	{
+		border:none;
+		border-radius:0px;
+		width:300px;
+		height:200px;
+	}
+
+.tinted-with-text
+	{
+	position: absolute;
+	top:0;
+	font-size: 40px;
+	background-color:rgb(255, 255, 255,0.5);
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items: center;
+	*/
+	
+
+	}
+
+
+/*font-family: 'Monoton', cursive;   <--- this is what you do when you wanna use Google fonts*/
+/*font-family: 'Caveat', cursive; */
+/*font-family: 'Dosis', sans-serif;*/
+
